@@ -1,29 +1,7 @@
 services:
-  # ---------------------------
-  # Frontend (React / Vue)
-  # ---------------------------
-  - type: static_site
-    name: pmis-frontend
-    env: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: frontend/build
-    pullRequestPreviewsEnabled: true
-
-  # ---------------------------
-  # Backend (FastAPI + OpenAI)
-  # ---------------------------
   - type: web
-    name: pmis-backend
+    name: pmis-app
     env: docker
     dockerfilePath: ./Dockerfile
     autoDeploy: true
-    plan: free   # change to starter/standard if you need more CPU/RAM
-
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
-      - key: ENV
-        value: "production"
-      # Add API keys only via Render dashboard (not in file):
-      # - key: OPENAI_API_KEY
-      #   sync: false
+    plan: free
