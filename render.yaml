@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: pmis-ai-internship-optimized
+    env: docker
+    plan: free
+    branch: main
+    buildCommand: docker build -t pmis-ai-internship-optimized .
+    startCommand: docker run -p 8000:8000 pmis-ai-internship-optimized
+    envVars:
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: EMBEDDING_INDEX_DIR
+        value: /app/data
+      - key: PMIS_BASE_URL
+        value: mock

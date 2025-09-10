@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Intern",
+    "company": "Civic Labs",
+    "location": "Kolkata",
+    "description": "Frontend Intern at Civic Labs in Kolkata. Work on Kotlin, NLP, Tableau.",
+    "required_skills": "Kotlin, NLP, Tableau, SQL, Kubernetes, DevOps"
+  },
+  {
+    "id": 2,
+    "title": "UX/UI Intern",
+    "company": "Gov Analytics",
+    "location": "New Delhi",
+    "description": "UX/UI Intern at Gov Analytics in New Delhi. Work on PyTorch, Pandas, React.",
+    "required_skills": "PyTorch, Pandas, React, Flutter"
+  },
+  {
+    "id": 3,
+    "title": "Data Science Intern",
+    "company": "GreenTech",
+    "location": "Hyderabad",
+    "description": "Data Science Intern at GreenTech in Hyderabad. Work on CSS, TensorFlow, PowerBI.",
+    "required_skills": "CSS, TensorFlow, PowerBI"
+  },
+  {
+    "id": 4,
+    "title": "UX/UI Intern",
+    "company": "Civic Labs",
+    "location": "Bengaluru",
+    "description": "UX/UI Intern at Civic Labs in Bengaluru. Work on Kubernetes, Linux, GCP.",
+    "required_skills": "Kubernetes, Linux, GCP, Azure, PyTorch"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Intern",
+    "company": "Smart Solutions",
+    "location": "Mumbai",
+    "description": "DevOps Intern at Smart Solutions in Mumbai. Work on AWS, Transformers, Tableau.",
+    "required_skills": "AWS, Transformers, Tableau, Data Visualization"
+  },
+  {
+    "id": 6,
+    "title": "Product Intern",
+    "company": "Civic Labs",
+    "location": "Bengaluru",
+    "description": "Product Intern at Civic Labs in Bengaluru. Work on PostgreSQL, Tableau, Machine Learning.",
+    "required_skills": "PostgreSQL, Tableau, Machine Learning"
+  },
+  {
+    "id": 7,
+    "title": "DevOps Intern",
+    "company": "BetaSoft",
+    "location": "Hyderabad",
+    "description": "DevOps Intern at BetaSoft in Hyderabad. Work on Transformers, Docker, Django.",
+    "required_skills": "Transformers, Docker, Django, Machine Learning, MongoDB"
+  },
+  {
+    "id": 8,
+    "title": "Security Intern",
+    "company": "InnovateX",
+    "location": "Bengaluru",
+    "description": "Security Intern at InnovateX in Bengaluru. Work on DevOps, Flutter, Kotlin.",
+    "required_skills": "DevOps, Flutter, Kotlin, Swift, GCP, Kubernetes"
+  },
+  {
+    "id": 9,
+    "title": "Cloud Intern",
+    "company": "Digital India",
+    "location": "Bengaluru",
+    "description": "Cloud Intern at Digital India in Bengaluru. Work on PyTorch, Flutter, MongoDB.",
+    "required_skills": "PyTorch, Flutter, MongoDB"
+  },
+  {
+    "id": 10,
+    "title": "Security Intern",
+    "company": "Tech Labs",
+    "location": "New Delhi",
+    "description": "Security Intern at Tech Labs in New Delhi. Work on Tableau, Python, Data Visualization.",
+    "required_skills": "Tableau, Python, Data Visualization, TensorFlow"
+  },
+  {
+    "id": 11,
+    "title": "Backend Intern",
+    "company": "Digital India",
+    "location": "Jaipur",
+    "description": "Backend Intern at Digital India in Jaipur. Work on Django, Transformers, Kotlin.",
+    "required_skills": "Django, Transformers, Kotlin, PostgreSQL, CSS, GCP"
+  },
+  {
+    "id": 12,
+    "title": "AI Research Intern",
+    "company": "Gov Analytics",
+    "location": "Ahmedabad",
+    "description": "AI Research Intern at Gov Analytics in Ahmedabad. Work on Django, Flask, PostgreSQL.",
+    "required_skills": "Django, Flask, PostgreSQL"
+  },
+  {
+    "id": 13,
+    "title": "UX/UI Intern",
+    "company": "BetaSoft",
+    "location": "Kolkata",
+    "description": "UX/UI Intern at BetaSoft in Kolkata. Work on DevOps, Machine Learning, Docker.",
+    "required_skills": "DevOps, Machine Learning, Docker"
+  },
+  {
+    "id": 14,
+    "title": "Cloud Intern",
+    "company": "Civic Labs",
+    "location": "Pune",
+    "description": "Cloud Intern at Civic Labs in Pune. Work on SQL, Flutter, Python.",
+    "required_skills": "SQL, Flutter, Python"
+  },
+  {
+    "id": 15,
+    "title": "Frontend Intern",
+    "company": "Alpha Tech",
+    "location": "Mumbai",
+    "description": "Frontend Intern at Alpha Tech in Mumbai. Work on PowerBI, HTML, TensorFlow.",
+    "required_skills": "PowerBI, HTML, TensorFlow, Node.js, AWS"
+  },
+  {
+    "id": 16,
+    "title": "UX/UI Intern",
+    "company": "Gov Analytics",
+    "location": "Bengaluru",
+    "description": "UX/UI Intern at Gov Analytics in Bengaluru. Work on Deep Learning, Node.js, CSS.",
+    "required_skills": "Deep Learning, Node.js, CSS, CI/CD, NLP"
+  },
+  {
+    "id": 17,
+    "title": "Business Analyst Intern",
+    "company": "City Services",
+    "location": "Ahmedabad",
+    "description": "Business Analyst Intern at City Services in Ahmedabad. Work on Data Visualization, Flask, Python.",
+    "required_skills": "Data Visualization, Flask, Python, Machine Learning, Django, Node.js"
+  },
+  {
+    "id": 18,
+    "title": "Security Intern",
+    "company": "Smart Solutions",
+    "location": "Lucknow",
+    "description": "Security Intern at Smart Solutions in Lucknow. Work on Flask, CI/CD, Django.",
+    "required_skills": "Flask, CI/CD, Django, Docker, NLP, JavaScript"
+  },
+  {
+    "id": 19,
+    "title": "Frontend Intern",
+    "company": "Civic Labs",
+    "location": "Pune",
+    "description": "Frontend Intern at Civic Labs in Pune. Work on SQL, Deep Learning, Flutter.",
+    "required_skills": "SQL, Deep Learning, Flutter, PyTorch"
+  },
+  {
+    "id": 20,
+    "title": "Frontend Intern",
+    "company": "Digital India",
+    "location": "Jaipur",
+    "description": "Frontend Intern at Digital India in Jaipur. Work on Data Visualization, Kubernetes, CI/CD.",
+    "required_skills": "Data Visualization, Kubernetes, CI/CD"
+  },
+  {
+    "id": 21,
+    "title": "Security Intern",
+    "company": "Smart Solutions",
+    "location": "Jaipur",
+    "description": "Security Intern at Smart Solutions in Jaipur. Work on Azure, PowerBI, DevOps.",
+    "required_skills": "Azure, PowerBI, DevOps, Node.js"
+  },
+  {
+    "id": 22,
+    "title": "Frontend Intern",
+    "company": "City Services",
+    "location": "Lucknow",
+    "description": "Frontend Intern at City Services in Lucknow. Work on PostgreSQL, Django, Linux.",
+    "required_skills": "PostgreSQL, Django, Linux, SQL"
+  },
+  {
+    "id": 23,
+    "title": "Mobile Intern",
+    "company": "Tech Labs",
+    "location": "Ahmedabad",
+    "description": "Mobile Intern at Tech Labs in Ahmedabad. Work on Swift, MongoDB, HTML.",
+    "required_skills": "Swift, MongoDB, HTML, CI/CD, Flask"
+  },
+  {
+    "id": 24,
+    "title": "Backend Intern",
+    "company": "Tech Labs",
+    "location": "Hyderabad",
+    "description": "Backend Intern at Tech Labs in Hyderabad. Work on DevOps, Python, GCP.",
+    "required_skills": "DevOps, Python, GCP, Deep Learning, Kotlin"
+  },
+  {
+    "id": 25,
+    "title": "Business Analyst Intern",
+    "company": "Civic Labs",
+    "location": "Lucknow",
+    "description": "Business Analyst Intern at Civic Labs in Lucknow. Work on CSS, Data Visualization, Flask.",
+    "required_skills": "CSS, Data Visualization, Flask"
+  },
+  {
+    "id": 26,
+    "title": "Business Analyst Intern",
+    "company": "Gov Analytics",
+    "location": "Lucknow",
+    "description": "Business Analyst Intern at Gov Analytics in Lucknow. Work on Kotlin, GCP, Docker.",
+    "required_skills": "Kotlin, GCP, Docker, TensorFlow"
+  },
+  {
+    "id": 27,
+    "title": "Backend Intern",
+    "company": "Digital India",
+    "location": "Pune",
+    "description": "Backend Intern at Digital India in Pune. Work on React, Linux, Flutter.",
+    "required_skills": "React, Linux, Flutter"
+  },
+  {
+    "id": 28,
+    "title": "Security Intern",
+    "company": "Alpha Tech",
+    "location": "Mumbai",
+    "description": "Security Intern at Alpha Tech in Mumbai. Work on React, Azure, Transformers.",
+    "required_skills": "React, Azure, Transformers"
+  },
+  {
+    "id": 29,
+    "title": "Backend Intern",
+    "company": "Gov Analytics",
+    "location": "Ahmedabad",
+    "description": "Backend Intern at Gov Analytics in Ahmedabad. Work on AWS, PostgreSQL, PyTorch.",
+    "required_skills": "AWS, PostgreSQL, PyTorch, Node.js, Swift"
+  },
+  {
+    "id": 30,
+    "title": "Product Intern",
+    "company": "InnovateX",
+    "location": "Pune",
+    "description": "Product Intern at InnovateX in Pune. Work on Flutter, DevOps, HTML.",
+    "required_skills": "Flutter, DevOps, HTML, Flask"
+  },
+  {
+    "id": 31,
+    "title": "Product Intern",
+    "company": "Gov Analytics",
+    "location": "Lucknow",
+    "description": "Product Intern at Gov Analytics in Lucknow. Work on PostgreSQL, TensorFlow, Data Visualization.",
+    "required_skills": "PostgreSQL, TensorFlow, Data Visualization, CSS, Docker"
+  },
+  {
+    "id": 32,
+    "title": "Frontend Intern",
+    "company": "Gov Analytics",
+    "location": "Chennai",
+    "description": "Frontend Intern at Gov Analytics in Chennai. Work on NLP, HTML, Node.js.",
+    "required_skills": "NLP, HTML, Node.js"
+  },
+  {
+    "id": 33,
+    "title": "Frontend Intern",
+    "company": "Tech Labs",
+    "location": "Chennai",
+    "description": "Frontend Intern at Tech Labs in Chennai. Work on Azure, Node.js, AWS.",
+    "required_skills": "Azure, Node.js, AWS, Kubernetes"
+  },
+  {
+    "id": 34,
+    "title": "AI Research Intern",
+    "company": "Alpha Tech",
+    "location": "Hyderabad",
+    "description": "AI Research Intern at Alpha Tech in Hyderabad. Work on Flask, React, Node.js.",
+    "required_skills": "Flask, React, Node.js"
+  },
+  {
+    "id": 35,
+    "title": "Business Analyst Intern",
+    "company": "Tech Labs",
+    "location": "Jaipur",
+    "description": "Business Analyst Intern at Tech Labs in Jaipur. Work on Transformers, TensorFlow, CSS.",
+    "required_skills": "Transformers, TensorFlow, CSS, Swift, DevOps"
+  },
+  {
+    "id": 36,
+    "title": "Business Analyst Intern",
+    "company": "Tech Labs",
+    "location": "Hyderabad",
+    "description": "Business Analyst Intern at Tech Labs in Hyderabad. Work on HTML, Pandas, JavaScript.",
+    "required_skills": "HTML, Pandas, JavaScript"
+  },
+  {
+    "id": 37,
+    "title": "Data Science Intern",
+    "company": "Alpha Tech",
+    "location": "Bengaluru",
+    "description": "Data Science Intern at Alpha Tech in Bengaluru. Work on PyTorch, Pandas, Deep Learning.",
+    "required_skills": "PyTorch, Pandas, Deep Learning, Docker, TensorFlow"
+  },
+  {
+    "id": 38,
+    "title": "Backend Intern",
+    "company": "Alpha Tech",
+    "location": "Hyderabad",
+    "description": "Backend Intern at Alpha Tech in Hyderabad. Work on Swift, Kubernetes, Python.",
+    "required_skills": "Swift, Kubernetes, Python, Pandas"
+  },
+  {
+    "id": 39,
+    "title": "Mobile Intern",
+    "company": "Digital India",
+    "location": "Pune",
+    "description": "Mobile Intern at Digital India in Pune. Work on Flask, Kotlin, Azure.",
+    "required_skills": "Flask, Kotlin, Azure"
+  },
+  {
+    "id": 40,
+    "title": "Web Developer Intern",
+    "company": "BetaSoft",
+    "location": "New Delhi",
+    "description": "Web Developer Intern at BetaSoft in New Delhi. Work on Kotlin, React, NLP.",
+    "required_skills": "Kotlin, React, NLP, Flask, CSS, Machine Learning"
+  },
+  {
+    "id": 41,
+    "title": "Frontend Intern",
+    "company": "Alpha Tech",
+    "location": "Mumbai",
+    "description": "Frontend Intern at Alpha Tech in Mumbai. Work on PyTorch, DevOps, Kubernetes.",
+    "required_skills": "PyTorch, DevOps, Kubernetes"
+  },
+  {
+    "id": 42,
+    "title": "Business Analyst Intern",
+    "company": "Gov Analytics",
+    "location": "Mumbai",
+    "description": "Business Analyst Intern at Gov Analytics in Mumbai. Work on CSS, NLP, Data Visualization.",
+    "required_skills": "CSS, NLP, Data Visualization"
+  },
+  {
+    "id": 43,
+    "title": "AI Research Intern",
+    "company": "Alpha Tech",
+    "location": "Lucknow",
+    "description": "AI Research Intern at Alpha Tech in Lucknow. Work on Swift, Node.js, TensorFlow.",
+    "required_skills": "Swift, Node.js, TensorFlow, CSS, SQL"
+  },
+  {
+    "id": 44,
+    "title": "Business Analyst Intern",
+    "company": "Civic Labs",
+    "location": "Ahmedabad",
+    "description": "Business Analyst Intern at Civic Labs in Ahmedabad. Work on Flask, Transformers, TensorFlow.",
+    "required_skills": "Flask, Transformers, TensorFlow, CSS, CI/CD, Kubernetes"
+  },
+  {
+    "id": 45,
+    "title": "Data Science Intern",
+    "company": "Alpha Tech",
+    "location": "Bengaluru",
+    "description": "Data Science Intern at Alpha Tech in Bengaluru. Work on PowerBI, TensorFlow, SQL.",
+    "required_skills": "PowerBI, TensorFlow, SQL, Python"
+  },
+  {
+    "id": 46,
+    "title": "Mobile Intern",
+    "company": "City Services",
+    "location": "Ahmedabad",
+    "description": "Mobile Intern at City Services in Ahmedabad. Work on React, HTML, Node.js.",
+    "required_skills": "React, HTML, Node.js"
+  },
+  {
+    "id": 47,
+    "title": "Web Developer Intern",
+    "company": "Digital India",
+    "location": "Pune",
+    "description": "Web Developer Intern at Digital India in Pune. Work on Docker, Python, HTML.",
+    "required_skills": "Docker, Python, HTML, AWS, GCP"
+  },
+  {
+    "id": 48,
+    "title": "Product Intern",
+    "company": "Alpha Tech",
+    "location": "Lucknow",
+    "description": "Product Intern at Alpha Tech in Lucknow. Work on Swift, Python, AWS.",
+    "required_skills": "Swift, Python, AWS, PyTorch, MongoDB"
+  },
+  {
+    "id": 49,
+    "title": "Data Science Intern",
+    "company": "Tech Labs",
+    "location": "Lucknow",
+    "description": "Data Science Intern at Tech Labs in Lucknow. Work on React, CSS, Flask.",
+    "required_skills": "React, CSS, Flask, GCP"
+  },
+  {
+    "id": 50,
+    "title": "DevOps Intern",
+    "company": "Civic Labs",
+    "location": "Hyderabad",
+    "description": "DevOps Intern at Civic Labs in Hyderabad. Work on Azure, Flutter, Kubernetes.",
+    "required_skills": "Azure, Flutter, Kubernetes, Django"
+  },
+  {
+    "id": 51,
+    "title": "Data Science Intern",
+    "company": "Gov Analytics",
+    "location": "Hyderabad",
+    "description": "Data Science Intern at Gov Analytics in Hyderabad. Work on Kotlin, Node.js, Machine Learning.",
+    "required_skills": "Kotlin, Node.js, Machine Learning, Azure, Transformers"
+  },
+  {
+    "id": 52,
+    "title": "UX/UI Intern",
+    "company": "Gov Analytics",
+    "location": "Chennai",
+    "description": "UX/UI Intern at Gov Analytics in Chennai. Work on Linux, Azure, CI/CD.",
+    "required_skills": "Linux, Azure, CI/CD, Machine Learning, Kotlin"
+  },
+  {
+    "id": 53,
+    "title": "Frontend Intern",
+    "company": "GreenTech",
+    "location": "Bengaluru",
+    "description": "Frontend Intern at GreenTech in Bengaluru. Work on PowerBI, Azure, Linux.",
+    "required_skills": "PowerBI, Azure, Linux, Python"
+  },
+  {
+    "id": 54,
+    "title": "Security Intern",
+    "company": "Tech Labs",
+    "location": "Mumbai",
+    "description": "Security Intern at Tech Labs in Mumbai. Work on DevOps, Linux, Machine Learning.",
+    "required_skills": "DevOps, Linux, Machine Learning, Pandas, TensorFlow"
+  },
+  {
+    "id": 55,
+    "title": "AI Research Intern",
+    "company": "Alpha Tech",
+    "location": "Hyderabad",
+    "description": "AI Research Intern at Alpha Tech in Hyderabad. Work on SQL, Transformers, GCP.",
+    "required_skills": "SQL, Transformers, GCP, JavaScript, Deep Learning, Tableau"
+  },
+  {
+    "id": 56,
+    "title": "Web Developer Intern",
+    "company": "InnovateX",
+    "location": "New Delhi",
+    "description": "Web Developer Intern at InnovateX in New Delhi. Work on Azure, GCP, Linux.",
+    "required_skills": "Azure, GCP, Linux, PyTorch, Tableau"
+  },
+  {
+    "id": 57,
+    "title": "Web Developer Intern",
+    "company": "Civic Labs",
+    "location": "Mumbai",
+    "description": "Web Developer Intern at Civic Labs in Mumbai. Work on CI/CD, PyTorch, Kubernetes.",
+    "required_skills": "CI/CD, PyTorch, Kubernetes, GCP"
+  },
+  {
+    "id": 58,
+    "title": "AI Research Intern",
+    "company": "InnovateX",
+    "location": "Ahmedabad",
+    "description": "AI Research Intern at InnovateX in Ahmedabad. Work on PyTorch, DevOps, NLP.",
+    "required_skills": "PyTorch, DevOps, NLP"
+  },
+  {
+    "id": 59,
+    "title": "Product Intern",
+    "company": "Alpha Tech",
+    "location": "New Delhi",
+    "description": "Product Intern at Alpha Tech in New Delhi. Work on CI/CD, Kubernetes, JavaScript.",
+    "required_skills": "CI/CD, Kubernetes, JavaScript, PowerBI, Linux"
+  },
+  {
+    "id": 60,
+    "title": "Cloud Intern",
+    "company": "Tech Labs",
+    "location": "Lucknow",
+    "description": "Cloud Intern at Tech Labs in Lucknow. Work on PowerBI, Deep Learning, Linux.",
+    "required_skills": "PowerBI, Deep Learning, Linux"
+  },
+  {
+    "id": 61,
+    "title": "AI Research Intern",
+    "company": "InnovateX",
+    "location": "New Delhi",
+    "description": "AI Research Intern at InnovateX in New Delhi. Work on PowerBI, Flutter, Deep Learning.",
+    "required_skills": "PowerBI, Flutter, Deep Learning"
+  },
+  {
+    "id": 62,
+    "title": "DevOps Intern",
+    "company": "Digital India",
+    "location": "Hyderabad",
+    "description": "DevOps Intern at Digital India in Hyderabad. Work on Flask, Flutter, SQL.",
+    "required_skills": "Flask, Flutter, SQL, PyTorch"
+  },
+  {
+    "id": 63,
+    "title": "Cloud Intern",
+    "company": "Gov Analytics",
+    "location": "Lucknow",
+    "description": "Cloud Intern at Gov Analytics in Lucknow. Work on Tableau, PostgreSQL, CSS.",
+    "required_skills": "Tableau, PostgreSQL, CSS, CI/CD"
+  },
+  {
+    "id": 64,
+    "title": "AI Research Intern",
+    "company": "Tech Labs",
+    "location": "Jaipur",
+    "description": "AI Research Intern at Tech Labs in Jaipur. Work on React, Docker, JavaScript.",
+    "required_skills": "React, Docker, JavaScript, GCP"
+  },
+  {
+    "id": 65,
+    "title": "Web Developer Intern",
+    "company": "GreenTech",
+    "location": "Bengaluru",
+    "description": "Web Developer Intern at GreenTech in Bengaluru. Work on Deep Learning, PostgreSQL, HTML.",
+    "required_skills": "Deep Learning, PostgreSQL, HTML, NLP, JavaScript"
+  },
+  {
+    "id": 66,
+    "title": "Security Intern",
+    "company": "BetaSoft",
+    "location": "New Delhi",
+    "description": "Security Intern at BetaSoft in New Delhi. Work on Docker, React, Linux.",
+    "required_skills": "Docker, React, Linux, Flutter, Pandas"
+  },
+  {
+    "id": 67,
+    "title": "Web Developer Intern",
+    "company": "Digital India",
+    "location": "Lucknow",
+    "description": "Web Developer Intern at Digital India in Lucknow. Work on Python, TensorFlow, PostgreSQL.",
+    "required_skills": "Python, TensorFlow, PostgreSQL, Kubernetes, DevOps"
+  },
+  {
+    "id": 68,
+    "title": "Web Developer Intern",
+    "company": "Civic Labs",
+    "location": "New Delhi",
+    "description": "Web Developer Intern at Civic Labs in New Delhi. Work on Django, AWS, PyTorch.",
+    "required_skills": "Django, AWS, PyTorch, CI/CD, React, DevOps"
+  },
+  {
+    "id": 69,
+    "title": "Data Science Intern",
+    "company": "Alpha Tech",
+    "location": "Kolkata",
+    "description": "Data Science Intern at Alpha Tech in Kolkata. Work on CI/CD, Data Visualization, Flask.",
+    "required_skills": "CI/CD, Data Visualization, Flask, Flutter"
+  },
+  {
+    "id": 70,
+    "title": "AI Research Intern",
+    "company": "BetaSoft",
+    "location": "Jaipur",
+    "description": "AI Research Intern at BetaSoft in Jaipur. Work on PyTorch, GCP, Kotlin.",
+    "required_skills": "PyTorch, GCP, Kotlin, Transformers, Docker"
+  },
+  {
+    "id": 71,
+    "title": "UX/UI Intern",
+    "company": "GreenTech",
+    "location": "New Delhi",
+    "description": "UX/UI Intern at GreenTech in New Delhi. Work on Data Visualization, PowerBI, CI/CD.",
+    "required_skills": "Data Visualization, PowerBI, CI/CD, SQL"
+  },
+  {
+    "id": 72,
+    "title": "DevOps Intern",
+    "company": "BetaSoft",
+    "location": "Mumbai",
+    "description": "DevOps Intern at BetaSoft in Mumbai. Work on Swift, Tableau, Flask.",
+    "required_skills": "Swift, Tableau, Flask, DevOps"
+  },
+  {
+    "id": 73,
+    "title": "Data Science Intern",
+    "company": "Alpha Tech",
+    "location": "Mumbai",
+    "description": "Data Science Intern at Alpha Tech in Mumbai. Work on Machine Learning, Pandas, HTML.",
+    "required_skills": "Machine Learning, Pandas, HTML"
+  },
+  {
+    "id": 74,
+    "title": "Frontend Intern",
+    "company": "Smart Solutions",
+    "location": "Ahmedabad",
+    "description": "Frontend Intern at Smart Solutions in Ahmedabad. Work on Kotlin, JavaScript, DevOps.",
+    "required_skills": "Kotlin, JavaScript, DevOps, HTML, Flutter, Azure"
+  },
+  {
+    "id": 75,
+    "title": "Mobile Intern",
+    "company": "Alpha Tech",
+    "location": "Ahmedabad",
+    "description": "Mobile Intern at Alpha Tech in Ahmedabad. Work on DevOps, Data Visualization, PyTorch.",
+    "required_skills": "DevOps, Data Visualization, PyTorch, GCP"
+  },
+  {
+    "id": 76,
+    "title": "UX/UI Intern",
+    "company": "InnovateX",
+    "location": "Mumbai",
+    "description": "UX/UI Intern at InnovateX in Mumbai. Work on Azure, Docker, React.",
+    "required_skills": "Azure, Docker, React"
+  },
+  {
+    "id": 77,
+    "title": "DevOps Intern",
+    "company": "Civic Labs",
+    "location": "New Delhi",
+    "description": "DevOps Intern at Civic Labs in New Delhi. Work on JavaScript, Docker, Kubernetes.",
+    "required_skills": "JavaScript, Docker, Kubernetes, Flask"
+  },
+  {
+    "id": 78,
+    "title": "Frontend Intern",
+    "company": "Civic Labs",
+    "location": "Kolkata",
+    "description": "Frontend Intern at Civic Labs in Kolkata. Work on Pandas, CSS, Kotlin.",
+    "required_skills": "Pandas, CSS, Kotlin, TensorFlow, Tableau, PostgreSQL"
+  },
+  {
+    "id": 79,
+    "title": "Security Intern",
+    "company": "BetaSoft",
+    "location": "Bengaluru",
+    "description": "Security Intern at BetaSoft in Bengaluru. Work on Transformers, NLP, Azure.",
+    "required_skills": "Transformers, NLP, Azure, CSS, Data Visualization"
+  },
+  {
+    "id": 80,
+    "title": "AI Research Intern",
+    "company": "Digital India",
+    "location": "Pune",
+    "description": "AI Research Intern at Digital India in Pune. Work on Flask, Transformers, GCP.",
+    "required_skills": "Flask, Transformers, GCP, Tableau"
+  },
+  {
+    "id": 81,
+    "title": "Data Science Intern",
+    "company": "Digital India",
+    "location": "Mumbai",
+    "description": "Data Science Intern at Digital India in Mumbai. Work on MongoDB, Django, Python.",
+    "required_skills": "MongoDB, Django, Python, NLP"
+  },
+  {
+    "id": 82,
+    "title": "Product Intern",
+    "company": "Tech Labs",
+    "location": "Bengaluru",
+    "description": "Product Intern at Tech Labs in Bengaluru. Work on PyTorch, Swift, Kotlin.",
+    "required_skills": "PyTorch, Swift, Kotlin, Transformers, MongoDB, CI/CD"
+  },
+  {
+    "id": 83,
+    "title": "Mobile Intern",
+    "company": "Alpha Tech",
+    "location": "Kolkata",
+    "description": "Mobile Intern at Alpha Tech in Kolkata. Work on PyTorch, Swift, GCP.",
+    "required_skills": "PyTorch, Swift, GCP, Docker, Data Visualization"
+  },
+  {
+    "id": 84,
+    "title": "Web Developer Intern",
+    "company": "Digital India",
+    "location": "Bengaluru",
+    "description": "Web Developer Intern at Digital India in Bengaluru. Work on PostgreSQL, SQL, React.",
+    "required_skills": "PostgreSQL, SQL, React"
+  },
+  {
+    "id": 85,
+    "title": "Cloud Intern",
+    "company": "InnovateX",
+    "location": "Chennai",
+    "description": "Cloud Intern at InnovateX in Chennai. Work on Data Visualization, PyTorch, PowerBI.",
+    "required_skills": "Data Visualization, PyTorch, PowerBI, TensorFlow"
+  },
+  {
+    "id": 86,
+    "title": "Product Intern",
+    "company": "InnovateX",
+    "location": "Ahmedabad",
+    "description": "Product Intern at InnovateX in Ahmedabad. Work on Transformers, Machine Learning, Swift.",
+    "required_skills": "Transformers, Machine Learning, Swift"
+  },
+  {
+    "id": 87,
+    "title": "Backend Intern",
+    "company": "Gov Analytics",
+    "location": "Kolkata",
+    "description": "Backend Intern at Gov Analytics in Kolkata. Work on Django, AWS, HTML.",
+    "required_skills": "Django, AWS, HTML, Flask, Kotlin"
+  },
+  {
+    "id": 88,
+    "title": "Frontend Intern",
+    "company": "Tech Labs",
+    "location": "Lucknow",
+    "description": "Frontend Intern at Tech Labs in Lucknow. Work on Tableau, GCP, HTML.",
+    "required_skills": "Tableau, GCP, HTML, Docker, MongoDB"
+  },
+  {
+    "id": 89,
+    "title": "AI Research Intern",
+    "company": "Digital India",
+    "location": "Mumbai",
+    "description": "AI Research Intern at Digital India in Mumbai. Work on Linux, React, NLP.",
+    "required_skills": "Linux, React, NLP"
+  },
+  {
+    "id": 90,
+    "title": "Mobile Intern",
+    "company": "Gov Analytics",
+    "location": "Pune",
+    "description": "Mobile Intern at Gov Analytics in Pune. Work on JavaScript, Swift, Node.js.",
+    "required_skills": "JavaScript, Swift, Node.js"
+  },
+  {
+    "id": 91,
+    "title": "Product Intern",
+    "company": "City Services",
+    "location": "New Delhi",
+    "description": "Product Intern at City Services in New Delhi. Work on Node.js, React, HTML.",
+    "required_skills": "Node.js, React, HTML, Linux, CSS, Django"
+  },
+  {
+    "id": 92,
+    "title": "DevOps Intern",
+    "company": "City Services",
+    "location": "Bengaluru",
+    "description": "DevOps Intern at City Services in Bengaluru. Work on Linux, Flutter, PyTorch.",
+    "required_skills": "Linux, Flutter, PyTorch, GCP"
+  },
+  {
+    "id": 93,
+    "title": "AI Research Intern",
+    "company": "Alpha Tech",
+    "location": "Jaipur",
+    "description": "AI Research Intern at Alpha Tech in Jaipur. Work on Node.js, NLP, Kotlin.",
+    "required_skills": "Node.js, NLP, Kotlin, Flutter, PostgreSQL"
+  },
+  {
+    "id": 94,
+    "title": "DevOps Intern",
+    "company": "Gov Analytics",
+    "location": "Kolkata",
+    "description": "DevOps Intern at Gov Analytics in Kolkata. Work on Pandas, Docker, AWS.",
+    "required_skills": "Pandas, Docker, AWS, Flutter, Kubernetes"
+  },
+  {
+    "id": 95,
+    "title": "Backend Intern",
+    "company": "Gov Analytics",
+    "location": "Hyderabad",
+    "description": "Backend Intern at Gov Analytics in Hyderabad. Work on Django, Python, Azure.",
+    "required_skills": "Django, Python, Azure, Docker, Kubernetes, PowerBI"
+  },
+  {
+    "id": 96,
+    "title": "Mobile Intern",
+    "company": "InnovateX",
+    "location": "Bengaluru",
+    "description": "Mobile Intern at InnovateX in Bengaluru. Work on Django, JavaScript, AWS.",
+    "required_skills": "Django, JavaScript, AWS"
+  },
+  {
+    "id": 97,
+    "title": "UX/UI Intern",
+    "company": "Smart Solutions",
+    "location": "Mumbai",
+    "description": "UX/UI Intern at Smart Solutions in Mumbai. Work on Swift, Python, Docker.",
+    "required_skills": "Swift, Python, Docker, CI/CD, React"
+  },
+  {
+    "id": 98,
+    "title": "Business Analyst Intern",
+    "company": "GreenTech",
+    "location": "Lucknow",
+    "description": "Business Analyst Intern at GreenTech in Lucknow. Work on PyTorch, Docker, HTML.",
+    "required_skills": "PyTorch, Docker, HTML, Swift, Machine Learning, MongoDB"
+  },
+  {
+    "id": 99,
+    "title": "Product Intern",
+    "company": "Digital India",
+    "location": "Mumbai",
+    "description": "Product Intern at Digital India in Mumbai. Work on Flask, Flutter, AWS.",
+    "required_skills": "Flask, Flutter, AWS"
+  },
+  {
+    "id": 100,
+    "title": "Product Intern",
+    "company": "InnovateX",
+    "location": "Chennai",
+    "description": "Product Intern at InnovateX in Chennai. Work on MongoDB, Flask, Node.js.",
+    "required_skills": "MongoDB, Flask, Node.js"
+  },
+  {
+    "id": 101,
+    "title": "UX/UI Intern",
+    "company": "BetaSoft",
+    "location": "Kolkata",
+    "description": "UX/UI Intern at BetaSoft in Kolkata. Work on HTML, Kotlin, NLP.",
+    "required_skills": "HTML, Kotlin, NLP"
+  },
+  {
+    "id": 102,
+    "title": "UX/UI Intern",
+    "company": "GreenTech",
+    "location": "Jaipur",
+    "description": "UX/UI Intern at GreenTech in Jaipur. Work on MongoDB, NLP, TensorFlow.",
+    "required_skills": "MongoDB, NLP, TensorFlow, SQL"
+  },
+  {
+    "id": 103,
+    "title": "Security Intern",
+    "company": "GreenTech",
+    "location": "Kolkata",
+    "description": "Security Intern at GreenTech in Kolkata. Work on AWS, CI/CD, Azure.",
+    "required_skills": "AWS, CI/CD, Azure, MongoDB, Python, NLP"
+  },
+  {
+    "id": 104,
+    "title": "Web Developer Intern",
+    "company": "InnovateX",
+    "location": "Hyderabad",
+    "description": "Web Developer Intern at InnovateX in Hyderabad. Work on Flask, Machine Learning, Kubernetes.",
+    "required_skills": "Flask, Machine Learning, Kubernetes, TensorFlow, Data Visualization, NLP"
+  },
+  {
+    "id": 105,
+    "title": "Product Intern",
+    "company": "Alpha Tech",
+    "location": "New Delhi",
+    "description": "Product Intern at Alpha Tech in New Delhi. Work on Kotlin, Python, SQL.",
+    "required_skills": "Kotlin, Python, SQL"
+  },
+  {
+    "id": 106,
+    "title": "Product Intern",
+    "company": "Tech Labs",
+    "location": "Pune",
+    "description": "Product Intern at Tech Labs in Pune. Work on Data Visualization, PyTorch, Deep Learning.",
+    "required_skills": "Data Visualization, PyTorch, Deep Learning, Pandas, HTML"
+  },
+  {
+    "id": 107,
+    "title": "Frontend Intern",
+    "company": "Gov Analytics",
+    "location": "Kolkata",
+    "description": "Frontend Intern at Gov Analytics in Kolkata. Work on AWS, Linux, Deep Learning.",
+    "required_skills": "AWS, Linux, Deep Learning"
+  },
+  {
+    "id": 108,
+    "title": "UX/UI Intern",
+    "company": "GreenTech",
+    "location": "New Delhi",
+    "description": "UX/UI Intern at GreenTech in New Delhi. Work on Linux, Swift, TensorFlow.",
+    "required_skills": "Linux, Swift, TensorFlow, Deep Learning, Kubernetes"
+  },
+  {
+    "id": 109,
+    "title": "Product Intern",
+    "company": "Gov Analytics",
+    "location": "Hyderabad",
+    "description": "Product Intern at Gov Analytics in Hyderabad. Work on NLP, Docker, Swift.",
+    "required_skills": "NLP, Docker, Swift, Linux, JavaScript"
+  },
+  {
+    "id": 110,
+    "title": "Frontend Intern",
+    "company": "Smart Solutions",
+    "location": "Jaipur",
+    "description": "Frontend Intern at Smart Solutions in Jaipur. Work on SQL, AWS, Deep Learning.",
+    "required_skills": "SQL, AWS, Deep Learning, MongoDB"
+  },
+  {
+    "id": 111,
+    "title": "Data Science Intern",
+    "company": "Civic Labs",
+    "location": "Jaipur",
+    "description": "Data Science Intern at Civic Labs in Jaipur. Work on MongoDB, Linux, GCP.",
+    "required_skills": "MongoDB, Linux, GCP, React, JavaScript"
+  },
+  {
+    "id": 112,
+    "title": "Product Intern",
+    "company": "Smart Solutions",
+    "location": "Kolkata",
+    "description": "Product Intern at Smart Solutions in Kolkata. Work on Linux, MongoDB, Django.",
+    "required_skills": "Linux, MongoDB, Django, Data Visualization, Python, AWS"
+  },
+  {
+    "id": 113,
+    "title": "UX/UI Intern",
+    "company": "Alpha Tech",
+    "location": "Hyderabad",
+    "description": "UX/UI Intern at Alpha Tech in Hyderabad. Work on CI/CD, Transformers, CSS.",
+    "required_skills": "CI/CD, Transformers, CSS"
+  },
+  {
+    "id": 114,
+    "title": "Product Intern",
+    "company": "GreenTech",
+    "location": "Pune",
+    "description": "Product Intern at GreenTech in Pune. Work on Data Visualization, Kotlin, MongoDB.",
+    "required_skills": "Data Visualization, Kotlin, MongoDB, Machine Learning, PowerBI"
+  },
+  {
+    "id": 115,
+    "title": "Backend Intern",
+    "company": "Civic Labs",
+    "location": "Mumbai",
+    "description": "Backend Intern at Civic Labs in Mumbai. Work on Azure, Linux, Transformers.",
+    "required_skills": "Azure, Linux, Transformers, Kubernetes, TensorFlow, React"
+  },
+  {
+    "id": 116,
+    "title": "Product Intern",
+    "company": "InnovateX",
+    "location": "Chennai",
+    "description": "Product Intern at InnovateX in Chennai. Work on GCP, JavaScript, Flask.",
+    "required_skills": "GCP, JavaScript, Flask, Kubernetes"
+  },
+  {
+    "id": 117,
+    "title": "Cloud Intern",
+    "company": "City Services",
+    "location": "Mumbai",
+    "description": "Cloud Intern at City Services in Mumbai. Work on Pandas, Tableau, Flutter.",
+    "required_skills": "Pandas, Tableau, Flutter, Node.js, HTML"
+  },
+  {
+    "id": 118,
+    "title": "Mobile Intern",
+    "company": "InnovateX",
+    "location": "Hyderabad",
+    "description": "Mobile Intern at InnovateX in Hyderabad. Work on Transformers, PyTorch, MongoDB.",
+    "required_skills": "Transformers, PyTorch, MongoDB, CSS, Node.js, TensorFlow"
+  },
+  {
+    "id": 119,
+    "title": "Security Intern",
+    "company": "BetaSoft",
+    "location": "Lucknow",
+    "description": "Security Intern at BetaSoft in Lucknow. Work on Flask, CI/CD, React.",
+    "required_skills": "Flask, CI/CD, React"
+  },
+  {
+    "id": 120,
+    "title": "Backend Intern",
+    "company": "Alpha Tech",
+    "location": "Mumbai",
+    "description": "Backend Intern at Alpha Tech in Mumbai. Work on Pandas, MongoDB, Node.js.",
+    "required_skills": "Pandas, MongoDB, Node.js, Azure"
+  }
+]
