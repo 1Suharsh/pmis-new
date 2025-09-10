@@ -23,7 +23,7 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
 # ---- Frontend build ----
 WORKDIR /app/frontend
 
-# Copy only package.json + lock file first (cache layer)
+# Copy only package.json + lock file first (better cache)
 COPY frontend/package*.json ./
 
 # Install deps
@@ -51,4 +51,3 @@ EXPOSE 8000
 
 # Start backend (FastAPI/Flask)
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
-
