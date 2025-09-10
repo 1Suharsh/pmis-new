@@ -1,13 +1,7 @@
 fastapi
 uvicorn[standard]
-httpx
-SQLAlchemy
-python-dotenv
-pydantic
-sentence-transformers>=2.2.2
-faiss-cpu>=1.7.4
+openai
 numpy
 scikit-learn
+python-dotenv
 python-multipart
-passlib[bcrypt]
-psycopg2-binary

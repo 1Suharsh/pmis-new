@@ -1,78 +1,168 @@
-<!doctype html><html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>PMIS AI Internship Finder</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PM Internship Recommendation Engine</title>
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body{font-family:Inter,Arial,Helvetica,sans-serif;background:#f3f4f6;margin:0;padding:0}
-    .nav{background:#111827;color:white;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:44px;height:44px;background:linear-gradient(135deg,#2563eb,#06b6d4);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
-    .container{max-width:1100px;margin:32px auto;padding:0 20px}
-    .hero{display:flex;gap:20px;align-items:center}
-    .hero-left{flex:1}
-    .hero-right{width:380px}
-    .card{background:white;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
-    .search{display:flex;gap:8px}
-    input{padding:12px;border-radius:8px;border:1px solid #e5e7eb;flex:1}
-    button{background:#2563eb;color:white;padding:10px 14px;border-radius:8px;border:none}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin-top:18px}
-    .job{background:white;padding:14px;border-radius:10px;border:1px solid #e6eef9}
-    .muted{color:#6b7280;font-size:13px}
-    footer{padding:28px;text-align:center;color:#6b7280}
+    /* Custom scrollbar for premium feel */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a; /* navy background */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #d4af37; /* gold */
+      border-radius: 4px;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Line clamp for description */
+    .line-clamp-2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;  
+      overflow: hidden;
+    }
   </style>
 </head>
-<body>
-  <div class="nav"><div class="brand"><div class="logo">PM</div><div><strong>PMIS AI Internship Finder</strong><div style="font-size:12px;color:#9ca3af">AI-powered recommendations for PM Internship Scheme</div></div></div><div>Team: Innovators Squad</div></div>
-  <div class="container">
-    <div class="hero">
-      <div class="hero-left">
-        <h1 style="margin:0">Find internships tailored to your skills</h1>
-        <p class="muted">Search by skills, interests, or keywords — powered by AI recommendations.</p>
-        <div class="card" style="margin-top:16px">
-          <div class="search">
-            <input id="q" placeholder="Enter skills e.g. Python, ML, React" />
-            <button onclick="search()">Find Internships</button>
-          </div>
-          <div id="status" style="margin-top:12px;color:#374151;font-size:13px">Try: Python, Machine Learning</div>
-        </div>
+<body class="bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] min-h-screen flex flex-col text-[#f5f1e9]">
+
+  <!-- Navbar -->
+  <nav class="bg-[#131a2b] bg-opacity-95 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-[#3c2f00]">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="/" class="text-3xl font-extrabold tracking-wide text-[#d4af37] hover:brightness-110 transition">PM Internship</a>
+      <ul class="hidden md:flex space-x-10 font-semibold tracking-wide text-[#f5f1e9cc]">
+        <li><a href="/" class="hover:text-[#d4af37] transition">Dashboard</a></li>
+        <li><a href="/search" class="hover:text-[#d4af37] transition">Search</a></li>
+        <li><a href="/applications" class="hover:text-[#d4af37] transition">Applications</a></li>
+        <li><a href="/profile" class="hover:text-[#d4af37] transition">Profile</a></li>
+      </ul>
+      <button class="md:hidden text-[#f5f1e9cc] hover:text-[#d4af37] focus:outline-none" aria-label="Open menu">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-6 py-10 flex-grow">
+
+    <!-- Dashboard / Search Bar -->
+    <section aria-label="Search internships" class="mb-12 max-w-3xl mx-auto">
+      <label for="search-input" class="block text-2xl font-semibold mb-4 text-[#f5f1e9]">Find Your Perfect Internship</label>
+      <div class="flex gap-4">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="e.g. Python, Data Science, Machine Learning"
+          class="flex-grow p-4 rounded-xl bg-[#1e293b] border border-[#3c2f00] placeholder-[#bfae5a] text-[#f5f1e9] focus:outline-none focus:ring-4 focus:ring-[#d4af37] focus:border-[#d4af37] transition"
+        />
+        <button
+          type="button"
+          class="px-8 py-4 bg-gradient-to-r from-[#d4af37] to-[#bfae5a] rounded-xl text-[#131a2b] font-semibold shadow-lg hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-[#d4af37] transition"
+        >
+          Search
+        </button>
       </div>
-      <div class="hero-right">
-        <div class="card"><h3 style="margin-top:0">How it works</h3><p class="muted">We embed internship descriptions & your query using Sentence-BERT and perform similarity search for personalized matches.</p></div>
+      <p class="mt-2 text-sm text-[#bfae5a]">Enter your skills or interests and press Search.</p>
+    </section>
+
+    <!-- Internship Recommendations List -->
+    <section aria-label="Internship recommendations" class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-extrabold mb-6 tracking-wide text-[#d4af37]">Recommended Internships</h2>
+      <ul class="space-y-6" id="internship-list">
+        <!-- Example internship item -->
+        <li tabindex="0" role="button" aria-pressed="false"
+          class="bg-[#1e293b] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer ring-1 ring-[#3c2f00] focus:ring-2 focus:ring-[#d4af37]">
+          <h3 class="text-2xl font-bold mb-1 text-[#f5f1e9]">Data Science Intern</h3>
+          <p class="font-semibold mb-1 text-[#d4af37]">Gov Analytics - New Delhi</p>
+          <p class="line-clamp-2 mb-2 text-[#e6dfb8]">Work on ML models for analytics, data preprocessing, and visualization to support government projects.</p>
+          <p class="text-sm text-[#bfae5a] font-mono tracking-wide">Skills: Python, Machine Learning, Pandas</p>
+        </li>
+        <!-- More internships dynamically inserted here -->
+      </ul>
+    </section>
+
+    <!-- Internship Details Modal (hidden by default) -->
+    <div id="internship-modal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center p-6 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="bg-[#1e293b] rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 relative shadow-2xl ring-1 ring-[#d4af37]">
+        <button id="modal-close" aria-label="Close modal" class="absolute top-6 right-6 text-[#bfae5a] hover:text-[#d4af37] focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+        <h3 id="modal-title" class="text-4xl font-extrabold mb-4 tracking-wide text-[#d4af37]">Internship Title</h3>
+        <p class="mb-2 text-[#e6dfb8]"><strong>Company:</strong> Company Name</p>
+        <p class="mb-2 text-[#e6dfb8]"><strong>Location:</strong> Location</p>
+        <p class="mb-6 text-[#e6dfb8]"><strong>Required Skills:</strong> Skills list</p>
+        <p class="mb-8 leading-relaxed text-[#f5f1e9]">Full internship description goes here. It can be multiple paragraphs describing the role, responsibilities, and expectations in detail.</p>
+        <button id="apply-button" class="w-full py-4 bg-gradient-to-r from-[#d4af37] to-[#bfae5a] rounded-2xl text-[#131a2b] font-bold shadow-lg hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-[#d4af37] transition">
+          Apply Now
+        </button>
       </div>
     </div>
-    <div id="results" class="grid" style="margin-top:22px"></div>
-  </div>
-  <footer>PM Internship AI Recommendation Engine — Smart India Hackathon 2025</footer>
-<script>
-const apiBase = '/api';
-async function search(){
-  const q = document.getElementById('q').value || 'Python';
-  document.getElementById('status').innerText = 'Searching...';
-  try{
-    const resp = await fetch(apiBase + '/internships/recommend', {method:'POST',headers:{'Content-Type':'application/json'},body: JSON.stringify({query_text:q})});
-    const data = await resp.json();
-    const list = data.recommendations || [];
-    render(list);
-    document.getElementById('status').innerText = `Found ${list.length} recommendations`;
-  }catch(e){document.getElementById('status').innerText = 'Search failed (backend not running)'; console.error(e)}
-}
-function render(list){
-  const out = document.getElementById('results'); out.innerHTML='';
-  if(!list.length){ out.innerHTML = '<div class="card">No recommendations found</div>'; return; }
-  list.forEach(item => {
-    const div = document.createElement('div'); div.className='job';
-    div.innerHTML = `<h3 style="margin:0">${item.title}</h3><div class="muted">${item.company} • ${item.location}</div><p class="muted">${item.description}</p><p style="margin:6px 0"><strong>Skills:</strong> ${item.required_skills}</p><div style="display:flex;justify-content:space-between;align-items:center"><div class="muted">Score: ${Math.round((item.score||0)*100)}%</div><div><button onclick="apply(${item.id})" style="background:#10b981;color:white;padding:8px;border-radius:8px;border:none">Apply</button></div></div>`;
-    out.appendChild(div);
-  });
-}
-async function apply(id){
-  try{ const r = await fetch('/api/internships/'+id+'/apply',{method:'POST',headers:{'Content-Type':'application/json'},body: JSON.stringify({user_id:1,cover_letter:'Excited to apply'})}); const j = await r.json(); alert('Applied: '+ JSON.stringify(j)); }catch(e){alert('Apply failed')}
-}
-// run initial search
-search();
-</script>
+
+    <!-- Profile Page (hidden by default, toggle with JS or route) -->
+    <section id="profile-section" class="max-w-2xl mx-auto hidden" aria-label="User   Profile">
+      <h2 class="text-3xl font-extrabold mb-8 tracking-wide text-[#d4af37]">Your Profile</h2>
+      <form id="profile-form" class="space-y-6 bg-[#1e293b] p-8 rounded-3xl shadow-lg ring-1 ring-[#d4af37]">
+        <div>
+          <label for="name" class="block font-semibold mb-2 text-[#f5f1e9]">Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full p-4 rounded-xl bg-[#131a2b] border border-[#3c2f00] placeholder-[#bfae5a] text-[#f5f1e9] focus:outline-none focus:ring-4 focus:ring-[#d4af37] focus:border-[#d4af37] transition" />
+        </div>
+        <div>
+          <label for="email" class="block font-semibold mb-2 text-[#f5f1e9]">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full p-4 rounded-xl bg-[#131a2b] border border-[#3c2f00] placeholder-[#bfae5a] text-[#f5f1e9] focus:outline-none focus:ring-4 focus:ring-[#d4af37] focus:border-[#d4af37] transition" />
+        </div>
+        <div>
+          <label for="skills" class="block font-semibold mb-2 text-[#f5f1e9]">Skills (comma separated)</label>
+          <input type="text" id="skills" name="skills" required
+            class="w-full p-4 rounded-xl bg-[#131a2b] border border-[#3c2f00] placeholder-[#bfae5a] text-[#f5f1e9] focus:outline-none focus:ring-4 focus:ring-[#d4af37] focus:border-[#d4af37] transition" />
+        </div>
+        <button type="submit"
+          class="w-full py-4 bg-gradient-to-r from-[#d4af37] to-[#bfae5a] rounded-2xl text-[#131a2b] font-extrabold shadow-lg hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-[#d4af37] transition">
+          Save Profile
+        </button>
+      </form>
+    </section>
+
+    <!-- Applications Page (hidden by default, toggle with JS or route) -->
+    <section id="applications-section" class="max-w-5xl mx-auto hidden" aria-label="Your Applications">
+      <h2 class="text-3xl font-extrabold mb-6 tracking-wide text-[#d4af37]">Your Applications</h2>
+      <ul id="applications-list" class="space-y-6">
+        <!-- Applied internships will be listed here -->
+        <li class="bg-[#1e293b] p-6 rounded-2xl shadow-lg ring-1 ring-[#3c2f00]">
+          <h3 class="text-2xl font-bold mb-1 text-[#f5f1e9]">Data Science Intern</h3>
+          <p class="font-semibold mb-1 text-[#d4af37]">Gov Analytics - New Delhi</p>
+          <p class="line-clamp-2 text-[#e6dfb8]">Work on ML models for analytics, data preprocessing, and visualization to support government projects.</p>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#131a2b] bg-opacity-95 backdrop-blur-md py-6 text-center text-[#bfae5a] border-t border-[#3c2f00]">
+    &copy; 2024 PM Internship Scheme. All rights reserved.
+  </footer>
+
+  <!-- Optional: Include your JS here or bundle with React -->
+  <script>
+    // Placeholder for modal open/close and other UI logic
+  </script>
 </body>
 </html>

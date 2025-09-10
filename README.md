@@ -1,21 +1,33 @@
-PMIS Internship AI Recommendation - Optimized for Render
-======================================================
+PMIS Internship Recommendation — Hybrid OpenAI + TF-IDF Backend
+================================================================
 
-This repository contains a production-ready full-stack app for SIH:
-- FastAPI backend (AI recommender using Sentence-BERT + FAISS)
-- Prebuilt React frontend (professional UI & branding)
-- Mock PM Internship dataset (120 entries)
-- Optimized Dockerfile for Render (serves prebuilt frontend)
-- render.yaml for one-click Render deployment
+This repository contains a FastAPI backend that serves a provided static UI and offers internship recommendations.
 
-Steps to deploy:
-1. Upload this repository to GitHub (branch main).
-2. On Render, create a new Web Service, connect GitHub repo, choose Docker environment, deploy.
-3. After the service is live, run `python scripts/build_index.py` in Render shell to build embeddings (optional but recommended).
+Features:
+- Uses OpenAI Embeddings (text-embedding-3-small) if OPENAI_API_KEY is set and embeddings are built.
+- Falls back to TF-IDF + cosine similarity if OpenAI key is not set or embeddings aren't built.
+- Endpoints:
+  - GET /api/internships
+  - POST /api/internships/recommend  (JSON: {"query_text":"Python, ML"})
+  - POST /api/internships/{id}/apply
+  - GET /health
 
-Local testing:
-- Build and run Docker locally:
-  docker build -t pmis-optimized .
-  docker run -p 8000:8000 pmis-optimized
-- Open http://localhost:8000
+Quick start (local):
+1. python -m venv venv && source venv/bin/activate
+2. pip install -r requirements.txt
+3. uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
+Using OpenAI embeddings (optional, recommended for quality):
+1. Set OPENAI_API_KEY in your environment.
+2. python scripts/build_embeddings.py  # will call OpenAI to get embeddings for internships
+3. Restart the server. /api/internships/recommend will now use OpenAI embeddings.
+
+Deploy on Render:
+1. Push this repo to GitHub.
+2. Create a Web Service on Render, select Docker, connect repo and deploy.
+3. In Render dashboard set environment variable OPENAI_API_KEY (do NOT commit it to GitHub).
+4. (Optional) After deploy, use Render Shell to run: python scripts/build_embeddings.py
+
+Notes:
+- OpenAI usage consumes credits. The script batches embeddings to minimize requests.
+- The TF-IDF fallback ensures the service works without OpenAI.
